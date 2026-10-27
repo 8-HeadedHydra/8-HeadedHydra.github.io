@@ -9,14 +9,13 @@
 body {
     background-color: #121214;
     color: #ffffff;
-    min-height: 100vh;
+    padding: 4rem 1rem; /* Swapped min-height for clean padding constraints */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 2rem;
-    padding: 2rem;
+    gap: 1.5rem; /* Keeps items close and clean */
 }
+
 
 /* 2. Main Container Layout (Matches Scoreboard Style) */
 .main-container {
