@@ -9,19 +9,18 @@
 body {
     background-color: #121214;
     color: #ffffff;
-    padding: 4rem 1rem; /* Swapped min-height for clean padding constraints */
+    padding: 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem; /* Keeps items close and clean */
+    gap: 2px;
 }
-
 
 /* 2. Main Container Layout (Matches Scoreboard Style) */
 .main-container {
     text-align: center;
     background: #1a1a1e;
-    padding: 3rem;
+    padding: 2px;
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     border: 1px solid #2a2a30;
@@ -33,9 +32,9 @@ body {
 h1 {
     font-size: 2.2rem;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 2px;
     letter-spacing: 1px;
-    color: #00d2d3; /* Matches ElectroLion Cyan */
+    color: #00d2d3;
     text-shadow: 0 0 10px rgba(0, 210, 211, 0.3);
 }
 
@@ -43,24 +42,24 @@ p {
     font-size: 1.1rem;
     line-height: 1.6;
     color: #b3b3b3;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2px;
 }
 
 hr {
     border: 0;
     height: 1px;
     background: #2a2a30;
-    margin: 2rem 0;
+    margin: 2px 0;
 }
 
 /* 4. Navigation Links styled like Cyberpunk Tags */
 a {
     display: inline-block;
-    color: #2ed573; /* Matches RadLion Green */
+    color: #2ed573;
     text-decoration: none;
     font-weight: 600;
-    margin: 0.5rem 1rem;
-    padding: 0.4rem 0.8rem;
+    margin: 2px;
+    padding: 2px;
     border: 1px solid transparent;
     border-radius: 6px;
     transition: all 0.2s ease;
@@ -76,16 +75,16 @@ a:hover {
 /* 5. Arcade Game Button Section */
 .game-section {
     display: flex;
-    gap: 1rem;
+    gap: 2px;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 2px;
 }
 
 button {
     cursor: pointer;
     font-size: 1.1rem;
     font-weight: 600;
-    padding: 0.8rem 2rem;
+    padding: 2px;
     border: none;
     border-radius: 8px;
     color: #ffffff;
@@ -94,16 +93,34 @@ button {
 
 /* Snake Launch Button (Purple Palette) */
 #snake {
-    background-color: #a55eea; /* Matches MechaLion Purple */
-    box-shadow: 0 4px 0px #8244bf;
+    background-color: #a55eea;
+    box-shadow: 0 2px 0px #8244bf;
 }
-#snake:hover { background-color: #b378f2; transform: translateY(-2px); box-shadow: 0 6px 0px #8244bf; }
-#snake:active { transform: translateY(2px); box-shadow: 0 0px 0px #8244bf; }
+
+#snake:hover {
+    background-color: #b378f2;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 0px #8244bf;
+}
+
+#snake:active {
+    transform: translateY(2px);
+    box-shadow: 0 0px 0px #8244bf;
+}
 
 /* Breakout Launch Button (Red/Pink Palette) */
 #breakout {
-    background-color: #ff3838; /* Matches Reset Button Red */
-    box-shadow: 0 4px 0px #cf2121;
+    background-color: #ff3838;
+    box-shadow: 0 2px 0px #cf2121;
 }
-#breakout:hover { background-color: #ff4d4d; transform: translateY(-2px); box-shadow: 0 6px 0px #cf2121; }
-#breakout:active { transform: translateY(2px); box-shadow: 0 0px 0px #cf2121; }
+
+#breakout:hover {
+    background-color: #ff4d4d;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 0px #cf2121;
+}
+
+#breakout:active {
+    transform: translateY(2px);
+    box-shadow: 0 0px 0px #cf2121;
+}
